@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Widows Care & Charity Organization | Official Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="https://wa.me/2348136324180" class="whatsapp-float" target="_blank" aria-label="WhatsApp Contact">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-box">
+                <img src="photos/charity_logo.jpg" alt="Widows Care Logo" class="nav-logo">
+                <div class="logo-text">
+                    Widows Care and <br><span>Charity Organization</span>
+                </div>
+            </a>
+            
+            <button class="menu-toggle" id="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#purpose" onclick="toggleMenu()">Mission</a></li>
+                <li><a href="#global-imperative" onclick="toggleMenu()">The Cause</a></li>
+                <li><a href="#impact" onclick="toggleMenu()">Impact</a></li>
+                <li><a href="#donate" class="nav-cta" onclick="toggleMenu()">Donate Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-tag">SINCE 2016</div>
+            <h1>Empowering Widows, <br><span class="text-accent">Restoring Hope.</span></h1>
+            <p>A specialized global platform providing healthcare, economic empowerment, and social justice for widows and their wards.</p>
+            <div class="hero-actions">
+                <a href="#support-form" class="btn-hero-main">Commit Support</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="purpose" class="section-padding">
+        <div class="container">
+            <div class="purpose-grid">
+                <div class="purpose-card">
+                    <div class="card-icon-wrap"><i class="fas fa-eye"></i></div>
+                    <h3>Our Vision</h3>
+                    <p>To create a world where every widow is empowered, self-reliant, and treated with utmost dignity and social justice.</p>
+                </div>
+                <div class="purpose-card">
+                    <div class="card-icon-wrap"><i class="fas fa-bullseye"></i></div>
+                    <h3>Our Mission</h3>
+                    <p>To provide sustainable economic opportunities, comprehensive healthcare support, and advocacy for widows and their children.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="global-imperative" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title-box">
+                <h2 class="section-title">The Global Imperative</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="stagger-layout">
+                <div class="stagger-block">
+                    <div class="stagger-info">
+                        <div class="stagger-stat">258M</div>
+                        <h4>Widows Worldwide</h4>
+                        <p>Most widows lose their spouses to disease, conflict, or accidents. We provide the safety net they need to rebuild their lives with dignity.</p>
+                    </div>
+                    <div class="stagger-frame">
+                        <img src="photos/WICO reliable team.jpeg" alt="Management Team">
+                    </div>
+                </div>
+
+                <div class="stagger-block reverse">
+                    <div class="stagger-info">
+                        <div class="stagger-stat">585M</div>
+                        <h4>Children Impacted</h4>
+                        <p>Nearly half a billion children depend on widowed mothers for survival. Our medical outreaches bridge the gap in basic healthcare.</p>
+                    </div>
+                    <div class="stagger-frame">
+                        <img src="photos/Medicals for widows.jpeg" alt="Healthcare Outreach">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="section-padding">
+        <div class="container">
+            <div class="section-title-box">
+                <h2 class="section-title">Impact Gallery</h2>
+                <button id="gallery-toggle-btn" class="gallery-trigger" onclick="toggleGallery()">
+                    <i class="fas fa-th-large"></i> Explore Our Work
+                </button>
+            </div>
+
+            <div id="gallery-content" class="gallery-wrapper gallery-hidden">
+                <div class="gallery-card"><img src="photos/widows blessed with food items.jpeg" alt="Food Distribution"></div>
+                <div class="gallery-card"><img src="photos/Widows empowered.jpeg" alt="Empowerment Event"></div>
+                <div class="gallery-card"><img src="photos/Presentation_of_grinding_machine_to_a_widow.jpeg" alt="Equipment Support"></div>
+                <div class="gallery-card"><img src="photos/Training_on_tie_and_die.jpeg" alt="Skill Training"></div>
+                <div class="gallery-card"><img src="photos/Empowerment-Outreach.jpeg" alt="Community Outreach"></div>
+                <div class="gallery-card"><img src="photos/Presentation_of_empowerment_materials_to_widows.jpeg" alt="Material Support"></div>
+                <div class="gallery-card"><img src="photos/WICO reliable team.jpeg"></div>
+                <div class="gallery-card"><img src="photos/WICON Team needs edit.jpeg"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support-form" class="section-padding bg-light">
+        <div class="container">
+            <div class="support-box">
+                <div class="support-intro">
+                    <h2>Commit Your Support</h2>
+                    <p>Select a partnership tier to fuel our 2026 humanitarian goals.</p>
+                </div>
+                <form id="intentForm" class="styled-form">
+                    <div class="input-group">
+                        <div class="field-wrap">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="donorName" placeholder="Full Name" required>
+                        </div>
+                        <div class="field-wrap">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="donorEmail" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="tier-selection">
+                        <p class="label">Choose Commitment Tier:</p>
+                        <div class="tier-flex">
+                            <button type="button" class="t-btn" onclick="setAmount(20000)">₦20k</button>
+                            <button type="button" class="t-btn" onclick="setAmount(50000)">₦50k</button>
+                            <button type="button" class="t-btn" onclick="setAmount(100000)">₦100k</button>
+                            <button type="button" class="t-btn" onclick="setAmount(500000)">₦500k</button>
+                            <button type="button" class="t-btn" onclick="setAmount(1000000)">₦1M</button>
+                        </div>
+                    </div>
+                    <div class="field-wrap custom-amt">
+                        <i class="fas fa-coins"></i>
+                        <input type="number" id="customAmount" placeholder="Or enter custom amount (₦)">
+                    </div>
+                    <button type="submit" class="submit-button">Secure via WhatsApp <i class="fab fa-whatsapp"></i></button>
+                    <div class="email-alt">
+                        <p>Prefer Email? <a href="mailto:widowscareandcharityorg@gmail.com">Send us a direct message</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="section-padding">
+        <div class="container">
+            <div class="institutional-card">
+                <div class="card-head">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Direct Bank Transfer</h3>
+                </div>
+                <div class="card-body">
+                    <div class="detail-row"><span>Bank</span><strong>FCMB</strong></div>
+                    <div class="detail-row"><span>Entity Name</span><strong>Widows Care and Charity Org</strong></div>
+                    <div class="detail-row highlight"><span>Account Number</span><strong id="accNum">4151188010</strong></div>
+                    <button onclick="copyAcc()" class="copy-trigger"><i class="fas fa-copy"></i> Copy Account Details</button>
+                </div>
+                <a href="https://wa.me/2348136324180" class="btn-wa-confirm">Confirm Donation via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Widows Care and <br>Charity Organization</h3>
+                <p>Restoring hope and dignity for widows since 2016 through sustainable advocacy and community support.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:widowscareandcharityorg@gmail.com">Email Us Directly</a></p>
+                <p><i class="fas fa-globe"></i> <a href="https://widowscareandcharity.com" target="_blank">Official Website</a></p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Our Journey</h4>
+                <div class="social-icons">
+                    <a href="#" id="fb-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" id="ig-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>&copy; 2026 Widows Care and Charity Organization. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
