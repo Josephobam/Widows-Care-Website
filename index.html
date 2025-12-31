@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="google-site-verification" content="DxqUfr-pfdQ1gotxhZ4Y_qNMHzkIWHos8fH8u2G0BJU" />
     <title>Widows Care & Charity Organization | Official Platform</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -16,7 +15,7 @@
     </a>
 
     <nav id="navbar">
-        <div class="nav-container">
+        <div class="nav-container container">
             <a href="#" class="logo-box">
                 <img src="photos/charity_logo.jpg" alt="Widows Care Logo" class="nav-logo">
                 <div class="logo-text">
@@ -104,7 +103,7 @@
 
     <section id="impact" class="section-padding">
         <div class="container">
-            <div class="section-title-box">
+            <div class="section-title-box impact-header">
                 <h2 class="section-title">Impact Gallery</h2>
                 <button id="gallery-toggle-btn" class="gallery-trigger" onclick="toggleGallery()">
                     <i class="fas fa-th-large"></i> Explore Our Work
@@ -112,14 +111,32 @@
             </div>
 
             <div id="gallery-content" class="gallery-wrapper gallery-hidden">
-                <div class="gallery-card"><img src="photos/widows blessed with food items.jpeg" alt="Food Distribution"></div>
-                <div class="gallery-card"><img src="photos/Widows empowered.jpeg" alt="Empowerment Event"></div>
-                <div class="gallery-card"><img src="photos/Presentation_of_grinding_machine_to_a_widow.jpeg" alt="Equipment Support"></div>
-                <div class="gallery-card"><img src="photos/Training_on_tie_and_die.jpeg" alt="Skill Training"></div>
-                <div class="gallery-card"><img src="photos/Empowerment-Outreach.jpeg" alt="Community Outreach"></div>
-                <div class="gallery-card"><img src="photos/Presentation_of_empowerment_materials_to_widows.jpeg" alt="Material Support"></div>
-                <div class="gallery-card"><img src="photos/WICO reliable team.jpeg"></div>
-                <div class="gallery-card"><img src="photos/WICON Team needs edit.jpeg"></div>
+                <div class="gallery-card"><img src="photos/widows blessed with food items.jpeg" alt="Food Distribution"><span>Food distribution</span></div>
+                <div class="gallery-card"><img src="photos/Widows empowered.jpeg" alt="Empowerment Event"><span>Empowerment Event</span></div>
+                <div class="gallery-card"><img src="photos/Presentation_of_grinding_machine_to_a_widow.jpeg" alt="Equipment Support"><span>Grinding machine presentation</span></div>
+                <div class="gallery-card"><img src="photos/Training_on_tie_and_die.jpeg" alt="Skill Training"><span>Training on tie and die</span></div>
+                <div class="gallery-card"><img src="photos/Empowerment-Outreach.jpeg" alt="Community Outreach"><span>Empowerment Outreach</span></div>
+                <div class="gallery-card"><img src="photos/Presentation_of_empowerment_materials_to_widows.jpeg" alt="Material Support"><span>Material support</span></div>
+                <div class="gallery-card"><img src="photos/WICO reliable team.jpeg" alt="Team"><span>WICO Team</span></div>
+                <div class="gallery-card"><img src="photos/WICON Team needs edit.jpeg" alt="Team"><span>WICO Team</span></div>
+                <div class="gallery-card"><img src="photos/Training on launch bag sewing.jpeg" alt="Training"><span>Lunch bag training</span></div>
+                <div class="gallery-card"><img src="photos/Medicals for widows.jpeg" alt="Medical"><span>Medical Outreach</span></div>
+                <div class="gallery-card"><img src="photos/Presentation_of_leathers_for_launch_bag_sewing_after_training.jpeg" alt="Training"><span>Post-training support</span></div>
+                <div class="gallery-card"><img src="photos/Our_care_giver_listening_to_their_catering_instructor.jpeg" alt="Catering"><span>Catering training</span></div>
+                <div class="gallery-card"><img src="photos/Bag_sewed_by_our_caregivers.jpeg" alt="Output"><span>Bags by caregivers</span></div>
+                
+                <div class="gallery-card video-card">
+                    <video controls playsinline preload="metadata">
+                        <source src="videos/world humanitarian day celebration.mp4" type="video/mp4">
+                    </video>
+                    <span>World Humanitarian Day</span>
+                </div>
+                <div class="gallery-card video-card">
+                    <video controls playsinline preload="metadata">
+                        <source src="videos/widows on exercise day.mp4" type="video/mp4">
+                    </video>
+                    <span>Exercise Day</span>
+                </div>
             </div>
         </div>
     </section>
@@ -184,30 +201,46 @@
     </section>
 
     <footer class="main-footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <h3>Widows Care and <br>Charity Organization</h3>
-                <p>Restoring hope and dignity for widows since 2016 through sustainable advocacy and community support.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Contact Us</h4>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:widowscareandcharityorg@gmail.com">Email Us Directly</a></p>
-                <p><i class="fas fa-globe"></i> <a href="https://widowscareandcharity.com" target="_blank">Official Website</a></p>
-            </div>
-            <div class="footer-social">
-                <h4>Follow Our Journey</h4>
-                <div class="social-icons">
-                    <a href="#" id="fb-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" id="ig-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Widows Care and <br>Charity Organization</h3>
+                    <p>Restoring hope and dignity for widows since 2016 through sustainable advocacy and community support.</p>
+                    <div class="social-icons">
+                        <a href="#" id="fb-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" id="ig-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#purpose">Our Mission</a></li>
+                        <li><a href="#impact">Impact Gallery</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:widowscareandcharityorg@gmail.com">Email Us</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+2348136324180">+234 813 632 4180</a></p>
+                    <div class="footer-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            <strong>Office Address</strong><br>
+                            No 6, Oluwatoyin Street, Ogba, Lagos
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-legal">
-            <p>&copy; 2026 Widows Care and Charity Organization. All Rights Reserved.</p>
+            <div class="footer-legal">
+                <p>© 2026 Widows Care and Charity Organization. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
